@@ -12,6 +12,23 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+h3
+{
+    text-align: center;
+    font-size: 15px;
+}
+h6
+{
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+}
+hr 
+{
+    height:2px;
+    border-width: 0;
+    background-color:#003392;
+}
 .container
 {
     position: relative;
