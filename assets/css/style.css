@@ -6,7 +6,7 @@
 }
 
 body{
-    background: lightblue;
+    background: grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,12 @@ body{
     position: relative;
     background: whitesmoke;
     padding: 40px;
+}
+.container .left-side .img
+{
+    position: relative;
+    align-items: center;
+    border-radius: 50%;
 }
 .container .right-side
 {
