@@ -17,7 +17,7 @@
   
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
     <div class="container bg-primary">
         <div class="left-side">
@@ -29,18 +29,63 @@
             <hr />
             <div>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user"></i> Sobre mí</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-list"></i> Resumen</a></li>
-                    <li class="nav-item"><a class="nav-link disabled" href="#"><i class="fa-solid fa-code"></i> Portafolio</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section1"><i class="fa-solid fa-user"></i> Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section2"><i class="fa-solid fa-list"></i> Resumen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section3"><i class="fa-solid fa-code"></i> Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section4"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
                 </ul>
             </div>
         </div>
-        <div class="right-side">
-            <h3>Datos</h3>
+        <div  id="myScrollspy" class="right-side">
+            <div id="section1" class="container-fluid">
+                <h2>Sobre mí</h2>
+                <hr>
+                <div class="row">
+                  <div class="col-sm">
+                    Ingeniero Civil en computación e informática, con conocimientos en el diseño y desarrollo de software , análisis de algoritmos . Con el experiencia en soporte técnico en equipos computacionales.
+                  </div>
+                  <div class="col-sm">
+                    <div class="row">
+                        <div class="col-sm">
+                          Fecha de Nacimiento<br><br>
+                          Lugar de Nacimiento<br><br>
+                          Genero<br><br>
+                          Nacionalidad<br>
+                        </div>
+                        <div class="col-sm">
+                          24 de Junio del 1996<br><br>
+                          Punta Arenas<br><br><br>
+                          Hombre<br><br>
+                          Chileno
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div id="section2" class="container-fluid">
+                <h2>Resumen</h2>
+                <hr>
+                <h5>Formación</h5>
+                <hr>
+                Ingenieria Civil en Computación e Informatica (mar 2015 - dic 2020)
+                <br>Universidad de Magallanes, Punta Arenas<br><br>
+
+                <h5>Experiencia Laboral</h5>
+                <hr>
+                Ingenieria Civil en Computación e Informatica (mar 2015 - dic 2020)
+                <br>Universidad de Magallanes, Punta Arenas
+            </div>
+            <div id="section3" class="container-fluid">
+                <h2>Portafolio</h2>
+                <hr>
+                En construcción...
+            </div>
+            <div id="section4" class="container-fluid">
+                <h2>Contacto</h2>
+                <hr>
+            </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
