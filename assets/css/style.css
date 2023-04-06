@@ -40,11 +40,6 @@ hr {
   background: whitesmoke;
   padding: 40px;
 }
-.container .left-side .img {
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-}
 .container .right-side {
   position: relative;
   background: white;
